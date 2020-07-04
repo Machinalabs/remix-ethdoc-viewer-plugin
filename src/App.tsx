@@ -1,11 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
-import {
-  createIframeClient,
-  CompilationFileSources,
-  CompilationResult,
-  Status,
-} from "@remixproject/plugin";
+import { createIframeClient } from "@remixproject/plugin";
 
 import { AppContext } from "./AppContext";
 import { Routes } from "./routes";
