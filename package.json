@@ -28,7 +28,7 @@
     "test:ci": "CI=true react-scripts test",
     "tslint": "tslint -c tslint.json src/**/*.{ts,tsx} --fix --format verbose",
     "check-formatting": "prettier --write --list-different './src/**/*.tsx'",
-    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-viewer-plugin-v2.surge.sh"
+    "deploy": "yarn build && surge --project ./build --domain machinalabs-remix-viewer-plugin.surge.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
