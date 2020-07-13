@@ -50,7 +50,7 @@ const App = () => {
       console.log("Remix Viewer Plugin has been loaded");
 
       client.on(
-        "ethdoc2" as any,
+        "ethdoc" as any,
         "documentation-generated",
         (documentation: string) => {
           console.log("New Documentation Received", documentation);
